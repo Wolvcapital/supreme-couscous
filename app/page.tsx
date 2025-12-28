@@ -12,7 +12,7 @@ import {
   Clock,
   ChevronRight,
 } from "lucide-react";
-import VisualStepper from "@/components/VisualStepper";
+import VisualStepper from "@/componentsVisualStepper";
 
 export default function Home() {
   const [isTracking, setIsTracking] = useState(false);
@@ -27,7 +27,7 @@ export default function Home() {
       {/* 1. DYNAMIC HERO SECTION */}
       <section className="relative h-[85vh] flex items-center overflow-hidden bg-[#002147]">
         <div className="absolute inset-0">
-          <img
+          <image
             src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2000"
             className="w-full h-full object-cover opacity-50 scale-105"
             alt="Logistics"
@@ -132,7 +132,7 @@ export default function Home() {
             Our Operations
           </h2>
           <p className="text-slate-500 max-w-xl mx-auto">
-            Enterprise-grade logistics infrastructure designed for the Afghan
+            Enterprise-grade logistics infrastructure designed for the Afghanistan
             market.
           </p>
         </div>
